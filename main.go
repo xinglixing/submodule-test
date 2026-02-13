@@ -8,6 +8,10 @@ func sayHello() {
 	fmt.Println("Hello!")
 }
 
+func sayGoodbye() {
+	fmt.Println("Goodbye!")
+}
+
 func main() {
 
 	sayHello()
@@ -15,4 +19,6 @@ func main() {
 	fmt.Println("Hello, World!")
 
 	fmt.Println("yoyoyo")
+
+	sayGoodbye()
 }
