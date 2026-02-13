@@ -12,13 +12,17 @@ func sayGoodbye() {
 	fmt.Println("Goodbye!")
 }
 
+func sayHi() {
+	fmt.Println("Hi!")
+}
+
 func main() {
 
 	sayHello()
 
 	fmt.Println("Hello, World!")
 
-	fmt.Println("yoyoyo")
+	sayHi()
 
 	sayGoodbye()
 }
