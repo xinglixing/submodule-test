@@ -9,7 +9,6 @@ func init() {
 }
 
 func main() {
-	init()
 
 	fmt.Println("Hello, World!")
 
